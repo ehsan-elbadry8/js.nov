@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-color: #f6f8ff;">
+    
+     <div class="container mt-5 pt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/7121fe56-98f3-4136-8e75-25a80b153f61.jpg" class="w-75">
+            </div>
+
+            <div class="col-md-6">
+               <h2>Welcome</h2>
+               <h6 class="text-muted mt-2 mb-4 ">Go ahead and sign up, let everyone<br>know how awsome you are!</h6>
+               <h5 id="result"></h5>
+               <form onsubmit="return ValidatedData()" action="success.html" method="post">
+                <input id="user" type="text" name="user" class="form-control mb-4 p-3" placeholder=" user Name">
+                <input id="email" type="text" name="email" class="form-control mb-4 p-3" placeholder=" Email">
+                <input id="pass" type="password" name="password" class="form-control mb-4 p-3" placeholder="password">
+                <input id="confirm" type="password" name="confirm" class="form-control mb-4 p-3" placeholder=" confirm password">
+                <input type="submit" value="Creat New Account" class="btn btn-primary d-block w-100">
+               </form>
+            </div>
+
+
+        </div>
+     </div>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
